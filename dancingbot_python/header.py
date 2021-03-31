@@ -17,6 +17,7 @@ while(connection == 0):					#만약 아두이노와 연결이 없다면
 
 def move(number,gap):
     global sv
+    global arduino
     sv[number-8] = gap
     arduino.write(b"s")
     for i in range(4):
