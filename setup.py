@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
    
 setup(
         name= 'dancingbot_python',
-        version='0.2', 
+        version='0.6', 
         long_description_content_type='text/markdown',
         description='use dancingbot in python pacakge',
         author='applenongbu(TNB alba)',
